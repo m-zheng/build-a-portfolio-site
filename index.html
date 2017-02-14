@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Minghua Zheng - Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-2">
+                        <img id ="logo" src="img/fullsize/m.zheng.jpg" alt="website logo">
+                    </div>
+                    <div class="col-xs-10 text-right text-uppercase">
+                        <h2>Minghua Zheng</h2>
+                        <h4>Front-end Ninja</h4>
+                    </div>
+                </div>
+                <hr id="hr-header">
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="introduction">
+                        <picture>
+                            <source media="(min-width: 501px)" srcset="./img/fullsize/artisan_large.jpg"/>
+                            <source media="(max-width: 500px)" srcset="./img/thumbnails/artisan_small.jpg"/>
+                            <img class ="img-responsive" src="./img/fullsize/artisan_large.jpg" alt="a fantastic image" data-toggle="modal" data-target="#myModal-1">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Featured Work</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <picture>
+                        <source media="(min-width: 501px)" srcset="./img/fullsize/image_1_large.jpg"/>
+                        <source media="(max-width: 500px)" srcset="./img/thumbnails/image_1_small.jpg"/>
+                        <img class ="img-responsive" src="./img/fullsize/image_1_large.jpg" alt="an random image" data-toggle="modal" data-target="#myModal-2">
+                    </picture>
+                    <h3 class ="text-uppercase">movie trailers</h3>
+                    <p><a href="https://github.com/minghua1991/movie_trailer">Link to project</a></p>
+                </div>
+                <div class="col-sm-4">
+                    <picture>
+                        <source media="(min-width: 501px)" srcset="./img/fullsize/image_2_large.jpg"/>
+                        <source media="(max-width: 500px)" srcset="./img/thumbnails/image_2_small.jpg"/>
+                        <img class ="img-responsive" src="./img/fullsize/image_2_large.jpg" alt="an random image" data-toggle="modal" data-target="#myModal-3">
+                    </picture>
+                    <h3 class ="text-uppercase">Appify</h3>
+                    <p><a href="http://github.com/">Link to project</a></p>
+                </div>
+                <div class="col-sm-4 ">
+                    <picture>
+                        <source media="(min-width: 501px)" srcset="./img/fullsize/image_3_large.jpg"/>
+                        <source media="(max-width: 500px)" srcset="./img/thumbnails/image_3_small.jpg"/>
+                        <img class ="img-responsive" src="./img/fullsize/image_3_large.jpg" alt="an random image" data-toggle="modal" data-target="#myModal-4">
+                    </picture>
+                    <h3 class ="text-uppercase">Appify</h3>
+                    <p><a href="http://github.com/">Link to project</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 1-->
+        <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel-1">Artisan</h4>
+                    </div>
+                    <div class="modal-body">
+                        <picture>
+                            <source media="(min-width: 501px)" srcset="./img/fullsize/artisan_large.jpg"/>
+                            <source media="(max-width: 500px)" srcset="./img/thumbnails/artisan_small.jpg"/>
+                            <img class ="img-responsive" src="./img/fullsize/artisan_large.jpg" alt="a fantastic image" data-toggle="modal" data-target="#myModal-1">
+                        </picture>
+                        <hr>
+                        <p class="text-muted modal-paragraph">Hi, it's Ming, a junior web developer. I am enthusiastic about web development.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel-2">Movie Trailers</h4>
+                    </div>
+                    <div class="modal-body">
+                        <picture>
+                            <source media="(min-width: 501px)" srcset="./img/fullsize/image_1_large.jpg"/>
+                            <source media="(max-width: 500px)" srcset="./img/thumbnails/image_1_small.jpg"/>
+                            <img class ="img-responsive" src="./img/fullsize/image_1_large.jpg" alt="an random image" data-toggle="modal" data-target="#myModal-2">
+                        </picture>
+                        <hr>
+                        <p class="text-muted modal-paragraph">This project is a part of Full Stack Developer Nanodegree from Udacity. It provides a server-side script to store a list of movies, incluing movie title, poster image URL, movie trailer URL, release year, description and watch URL. This information can be fetched from a csv file which provides an easy way to manage all movie data.</p>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-3">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel-3">Appify</h4>
+                    </div>
+                    <div class="modal-body">
+                        <picture>
+                            <source media="(min-width: 501px)" srcset="./img/fullsize/image_2_large.jpg"/>
+                            <source media="(max-width: 500px)" srcset="./img/thumbnails/image_2_small.jpg"/>
+                            <img class ="img-responsive" src="./img/fullsize/image_2_large.jpg" alt="an random image" data-toggle="modal" data-target="#myModal-3">
+                        </picture>
+                        <hr>
+                        <p class="text-muted modal-paragraph">Opps, I haven't started yet.</p>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="modal fade" id="myModal-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-4">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel-4">Appify</h4>
+                    </div>
+                    <div class="modal-body">
+                        <picture>
+                            <source media="(min-width: 501px)" srcset="./img/fullsize/image_3_large.jpg"/>
+                            <source media="(max-width: 500px)" srcset="./img/thumbnails/image_3_small.jpg"/>
+                            <img class ="img-responsive" src="./img/fullsize/image_3_large.jpg" alt="an random image" data-toggle="modal" data-target="#myModal-4">
+                        </picture>
+                        <hr>
+                        <p class="text-muted modal-paragraph">Opps, I haven't started yet.</p>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <hr id="hr-footer">
+                <div class="text-center center-block">
+                    <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                    <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                    <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                    <a href="https://uk.linkedin.com/in/minghua-zheng-495762115"><i id="social-ln" class="fa fa-linkedin-square fa-3x social"></i></a>
+                    <a href="mailto:m.zheng1991@outlook.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
